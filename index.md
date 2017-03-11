@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages ReCSDM
 
-You can use the [editor on GitHub](https://github.com/LEISER307/reCSDM-AmxModX/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Authors
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* **Adidasman**
+* s1lent
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Description:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+* ReCSDM is the AmxModX module for ReGameDLL_CS, which includes the CSDM mode.
 ```
+
+### Features:
+
+* Compatible with ReGameDLL.
+* Work functions through the API ReGameDLL.
+* Use the native of the module in the plug-ins.
+* Optimization.
+
+### Installation:
+```markdown
+* In the directory *cstrike/addons/amxmodx*, copy the folder *configs* and *modules*.
+* We compile the plugins from the *scripting* folder.
+* Install plugins on the server.
+* We reboot the server.
+* The ReCSDM installation is complete.
+```
+
+### CVAR:
+* csdm_active 0/1 - Activation of CSDM.
+* csdm_spec_menu_always 0/1 - Always enables the spectator mode option in the menu.
+* csdm_unlimited_team_changes 0/1 - Allows you to change the command an unlimited number of times.
+* csdm_block_endround_force 0/1 - Force Round Lock.
+* csdm_block_drop_weapon 0/1 - Block the drop of weapons by the player.
+* csdm_remove_weapon_dead 0/1 - Remove weapons at the time of death.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LEISER307/reCSDM-AmxModX/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Official development forum [Official Website](http://www.dedicated-server.ru/vbb/showthread.php?t=26882) all questions on the forum.
