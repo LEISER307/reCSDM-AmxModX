@@ -35,7 +35,7 @@
 * csdm_block_drop_weapon 0/1 - Block the drop of weapons by the player.
 * csdm_remove_weapon_dead 0/1 - Remove weapons at the time of death.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Download: [reCSDM AmxModX v 3.6.0.1](https://github.com/LEISER307/reCSDM-AmxModX/blob/master/recsdm_amxx_3_6_0_1.zip)
 
 ### Support or Contact
 Official development forum [Official Website](http://www.dedicated-server.ru/vbb/showthread.php?t=26882) all questions on the forum.
