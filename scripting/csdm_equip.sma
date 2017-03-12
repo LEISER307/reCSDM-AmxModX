@@ -199,8 +199,8 @@ public plugin_init()
 	register_clcmd("csdm_equip_sett_menu", "csdm_equip_sett_menu", ADMIN_MAP, "CSDM Equip Settings Menu");
 	register_event("TextMsg","eRestart","a","2&#Game_C","2&#Game_w");
 
-	RegisterHam(Ham_Weapon_SecondaryAttack, "weapon_usp", "Weapon_SecondaryAttack_usp_Post", true);
-	RegisterHam(Ham_Weapon_SecondaryAttack, "weapon_m4a1", "Weapon_SecondaryAttack_m4a1_Post", true);
+	RegisterHam(Ham_Weapon_SecondaryAttack, "weapon_usp", "Weapon_SecAttack_usp_Post", true);
+	RegisterHam(Ham_Weapon_SecondaryAttack, "weapon_m4a1", "Weapon_SecAttack_m4a1_Post", true);
 
 	new main_plugin = module_exists("csdm_main") ? true : false;
 
@@ -332,7 +332,7 @@ public csdm_PostDeath(killer, victim, headshot, const weapon[])
 		cs_set_user_defuse(victim, 0);
 }
 
-public Weapon_SecondaryAttack_usp_Post(Ent)
+public Weapon_SecAttack_usp_Post(Ent)
 {
 	if(pev_valid(Ent) != PDATA_SAFE)
 		return HAM_IGNORED;
@@ -347,7 +347,7 @@ public Weapon_SecondaryAttack_usp_Post(Ent)
 	return HAM_IGNORED;
 }
 
-public Weapon_SecondaryAttack_m4a1_Post(Ent)
+public Weapon_SecAttack_m4a1_Post(Ent)
 {
 	if(pev_valid(Ent) != PDATA_SAFE)
 		return HAM_IGNORED;
